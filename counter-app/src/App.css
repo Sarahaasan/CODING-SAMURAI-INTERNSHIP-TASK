@@ -1,0 +1,12 @@
+/* #646cffaa */
+button
+{
+  background-color: #646cffaa ;
+  padding: 12px;
+  border-radius: 12px ;
+  color: white;
+}
+button:active
+{
+  transform: scale(0.9);
+}
