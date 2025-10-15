@@ -1,16 +1,25 @@
-# React + Vite
+# React Counter App 🧮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **React Counter Application** that allows users to increment, decrement, and reset a counter.  
+The current count is **persisted in `localStorage`**, so the value remains saved even after reloading the page.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ➕ Increment the counter  
+- ➖ Decrement the counter  
+- 🔄 Reset the counter to zero  
+- 💾 Automatically saves the count using `localStorage`  
+- 🎨 Clean UI with Tailwind-style classes  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
+- **React.js** (Functional Components + Hooks)  
+- **useState** and **useEffect** for state management  
+- **localStorage** for data persistence  
+- **tailwind** for styling  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
